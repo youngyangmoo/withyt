@@ -15,6 +15,10 @@ const App: React.FC = () => {
           birthdeath="1999-06-01 ~ "
           isAdmin={true}
         />
+        <User
+          name="Yang Yoontae"
+          birthdeath="1999-04-07 ~ "
+        />
       </header>
     </div>
   );

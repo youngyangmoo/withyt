@@ -2,13 +2,13 @@ import React from 'react';
 
 interface Props {
     name: string;
-    job: string;
+    birthdeath: string;
     isAdmin?: boolean;
 }
 
 export class User extends React.Component<Props>{
     render() {
-        const { name, job, isAdmin = false } = this.props;
+        const { name, birthdeath, isAdmin = false } = this.props;
         let mode = "User-mode"
         if (isAdmin) {
             mode = "Admin-mode"
@@ -21,8 +21,8 @@ export class User extends React.Component<Props>{
                     {name}
                 </div>
                 <div>
-                    <b>직업:  </b>
-                    {job}
+                    <b>출생-사망:  </b>
+                    {birthdeath}
                 </div>
                 <div>
                     <b>mode:  </b>

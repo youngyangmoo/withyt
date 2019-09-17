@@ -28,10 +28,14 @@ export class User extends React.Component<Props>{
         }
         
         let givenName = NameCompiler.getOnlyGivenName(name);
+        let imgName = ProfileImageCollector[givenName];
+        if(imgName === undefined){
+            imgName = ProfileImageCollector.Unknown
+        }
         return (
             <div>
                 <br></br>
-                <img src={ProfileImageCollector[givenName]} width="60%" alt="mooPicture"></img>
+                <img src={imgName} width="400" alt="mooPicture"></img>
                 <h2>프로필</h2>
                 <div>
                     <b>이름:  </b>

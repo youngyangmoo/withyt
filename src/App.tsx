@@ -1,5 +1,5 @@
 import React from 'react';
-import logo, { ReactComponent } from './assets/images/logo.svg';
+import logo from './assets/images/logo.svg';
 import './assets/styles/App.css';
 import {User} from './User';
 
@@ -13,6 +13,7 @@ const App: React.FC = () => {
         <User
           name="양영무"
           birthdeath="1953년 01월 24일 ~ "
+          isAdmin={true}
         />
       </header>
     </div>

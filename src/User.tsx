@@ -1,4 +1,5 @@
 import React from 'react';
+import MooPic from './assets/images/moo.png'
 
 interface Props {
     name: string;
@@ -15,7 +16,8 @@ export class User extends React.Component<Props>{
         }
         return (
             <div>
-                <img src="./assets/images/moo.jpg"></img>
+                <br></br>
+                <img src={MooPic} width="60%" alt="mooPicture"></img>
                 <h2>프로필</h2>
                 <div>
                     <b>이름:  </b>

@@ -20,8 +20,7 @@
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://youngyangmoo.github.io/withyt"
-  ,
+  "homepage": "https://youngyangmoo.github.io/withyt",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -36,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

@@ -31,8 +31,8 @@ yarn deploy # automatically do pushing and building before deploying
 - 에러가 있을 경우 푸쉬하지 않는다.
 - 이슈를 만들어 그 이슈에 관해 커밋을 하는 것을 장려한다.
 - 커밋 시 파일단위로 하는 것을 기본으로 하되, 간단한 수정이 비슷한 의도/로직 안에서 이루어진 경우 이를 허용한다.
-- 기본적으로 표준은 [airbnb java script style guide]("https://github.com/airbnb/javascript")를 따른다.
-- 리액트에 대한 내용은 [공식홈페이지]("https://reactjs.org/")를 참조하며, 디폴트 리액트 프로젝트에 대한 스크립트는 [번역 된 문서]("./aboutReact.md")를 참조한다.
+- 기본적으로 표준은 [airbnb java script style guide](https://github.com/airbnb/javascript)를 따른다.
+- 리액트에 대한 내용은 [공식홈페이지](https://reactjs.org)를 참조하며, 디폴트 리액트 프로젝트에 대한 스크립트는 [번역 된 문서](./aboutReact.md)를 참조한다.
 
 ## 건의 및 문의
 

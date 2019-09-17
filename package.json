@@ -9,8 +9,7 @@
     "@types/react-dom": "16.9.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
-    "typescript": "3.6.3"
+    "react-scripts": "3.1.1"
   },
   "homepage": "https://youngyangmoo.github.io/withyt",
   "scripts": {
@@ -20,7 +19,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +36,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "typescript": "^3.6.3"
   }
 }

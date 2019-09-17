@@ -11,8 +11,8 @@ const App: React.FC = () => {
         <h1>Hello, YT!</h1>
         <div>this is React</div>
         <User
-          name="얭용뮈"
-          job="마법사"
+          name="양윤태"
+          job="백수"
         />
       </header>
     </div>

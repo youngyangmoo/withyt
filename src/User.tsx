@@ -15,6 +15,7 @@ export class User extends React.Component<Props>{
         }
         return (
             <div>
+                <img src="./assets/images/moo.jpg"></img>
                 <h2>프로필</h2>
                 <div>
                     <b>이름:  </b>

@@ -12,7 +12,7 @@ const App: React.FC = () => {
         <div>this is React</div>
         <User
           name="양윤태"
-          job="백수"
+          job="대학생"
         />
       </header>
     </div>

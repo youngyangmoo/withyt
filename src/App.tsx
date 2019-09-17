@@ -1,7 +1,7 @@
 import React from 'react';
-import logo, { ReactComponent } from './assets/image/logo.svg';
+import logo, { ReactComponent } from './assets/images/logo.svg';
 import './assets/styles/App.css';
-import {User} from './first-page/User';
+import {User} from './User';
 
 const App: React.FC = () => {
   return (

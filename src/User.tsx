@@ -1,10 +1,22 @@
 import React from 'react';
-import MooPic from './assets/images/moo.png'
+import {ProfileImageCollector} from './ImageCollector'
 
 interface Props {
     name: string;
     birthdeath: string;
     isAdmin?: boolean;
+}
+
+class NameCompiler{
+    static getOnlyGivenName(name:string): string{
+        let len = name.length;
+        for(let i = 0; i<len; i++){
+            if(name.charAt(i) === " "){
+                return name.substring(i+1);
+            }
+        }
+        return "Unknown";
+    }
 }
 
 export class User extends React.Component<Props>{
@@ -14,10 +26,12 @@ export class User extends React.Component<Props>{
         if (isAdmin) {
             mode = "Admin-mode"
         }
+        
+        let givenName = NameCompiler.getOnlyGivenName(name);
         return (
             <div>
                 <br></br>
-                <img src={MooPic} width="60%" alt="mooPicture"></img>
+                <img src={ProfileImageCollector[givenName]} width="60%" alt="mooPicture"></img>
                 <h2>프로필</h2>
                 <div>
                     <b>이름:  </b>

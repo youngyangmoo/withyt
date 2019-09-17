@@ -11,8 +11,8 @@ const App: React.FC = () => {
         <h1>Hello, YT!</h1>
         <div>this is React</div>
         <User
-          name="양영무"
-          birthdeath="1953년 01월 24일 ~ "
+          name="Yang Youngmu"
+          birthdeath="1999-06-01 ~ "
           isAdmin={true}
         />
       </header>

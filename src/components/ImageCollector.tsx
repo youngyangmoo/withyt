@@ -1,5 +1,5 @@
-import youngmu from './assets/images/youngmu.png'
-import unknown from './assets/images/unknown.png'
+import youngmu from '../assets/images/youngmu.png'
+import unknown from '../assets/images/unknown.png'
 
 interface Profile{
     Youngmu: string

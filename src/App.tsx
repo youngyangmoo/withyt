@@ -4,6 +4,7 @@ import './assets/styles/App.css';
 import {User} from './components/User';
 import {Counter, Counter2} from './components/Counter'
 import {Animals} from './components/AnimalList'
+import {TodoList} from './components/TodoList'
 
 const App: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Counter/>
         <Counter2/>
         <Animals/>
+        <TodoList/>
       </header>
     </div>
   );

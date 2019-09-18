@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
 import './assets/styles/App.css';
-import {User} from './User';
+import {User} from './components/User';
+import {Counter, Counter2} from './components/Counter'
+import {Animals} from './components/AnimalList'
 
 const App: React.FC = () => {
   return (
@@ -19,6 +21,10 @@ const App: React.FC = () => {
           name="Yang Yoontae"
           birthdeath="1999-04-07 ~ "
         />
+
+        <Counter/>
+        <Counter2/>
+        <Animals/>
       </header>
     </div>
   );

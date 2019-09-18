@@ -20,9 +20,6 @@ const App: React.FC = () => {
           birthdeath="1999-04-07 ~ "
         />
       </header>
-      <div className="YT-pre-entry-page">
-        <a href="./myfirsthtml/entry.html" className="App-link">윤태 페이지</a>
-      </div>
     </div>
   );
 }

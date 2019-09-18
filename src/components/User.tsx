@@ -34,9 +34,11 @@ export class User extends React.Component<Props>{
         }
         return (
             <div className="Profile-box">
-                <br></br>
-                <img src={imgName} width="400" alt="mooPicture"></img>
                 <h2>Profile</h2>
+                <div className="Img-box">
+                    <img src={imgName} width="200px" alt="mooPicture"></img>
+                </div>
+            
                 <div>
                     <b>Name:  </b>
                     {name}

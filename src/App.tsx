@@ -8,8 +8,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello, YT!</h1>
-        <div>this is React</div>
+        <h1>Welcome, YT!</h1>
         <User
           name="Yang Youngmu"
           birthdeath="1999-06-01 ~ "
@@ -20,6 +19,9 @@ const App: React.FC = () => {
           birthdeath="1999-04-07 ~ "
         />
       </header>
+      <div className="YT-pre-entry-page">
+        <a href="/myfirsthtml/entry.html" className="App-link">윤태 페이지</a>
+      </div>
     </div>
   );
 }

@@ -33,16 +33,16 @@ export class User extends React.Component<Props>{
             imgName = ProfileImageCollector.Unknown
         }
         return (
-            <div>
+            <div className="Profile-box">
                 <br></br>
                 <img src={imgName} width="400" alt="mooPicture"></img>
-                <h2>프로필</h2>
+                <h2>Profile</h2>
                 <div>
-                    <b>이름:  </b>
+                    <b>Name:  </b>
                     {name}
                 </div>
                 <div>
-                    <b>출생-사망:  </b>
+                    <b>birth-death:  </b>
                     {birthdeath}
                 </div>
                 <div>

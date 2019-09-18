@@ -22,10 +22,10 @@ yarn install # dependencies 에 있는 모듈들 인스톨
 yarn start # port 3000 
 ```
 
--  그 후 완벽하다고 느끼면 마스터 브랜치에 소스파일들을 푸쉬 후에 `yarn deploy`를 통해 `gh-pages` 브랜치에 푸쉬 후, 빌드 / 디플로이를 한다.
+-  그 후 완벽하다고 느끼면 마스터 브랜치에 소스파일들을 푸쉬 후에 `yarn deploy`를 통해 빌드 후 `gh-pages` 브랜치에 푸쉬, 디플로이를 한다.
 
 ``` bash
-yarn deploy # automatically do pushing and building before deploying
+yarn deploy # automatically do building and pushing (deploying)
 ```
 
 ## 유의사항
